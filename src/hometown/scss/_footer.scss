@@ -1,0 +1,45 @@
+.end {
+    background: lightgray;
+    text-align: center;
+    .moreInfo {
+        .icons{
+            display: flex;
+            justify-content: space-evenly;
+            .guide, .transport{
+                border-radius: 12px;
+                cursor: pointer;
+                padding: 5px 10px;
+                margin-top: 5px;
+                background: none;
+                &:hover {
+                    background: rgb(144,143,144,0.4);
+                    border-radius: 12px;
+                    transition: 0.4s ease-in-out;
+                    transform: scale(1.08);
+                }
+                img {
+                    height: 2vw;
+                }
+                p {
+                    font-weight: bold;
+                    font-size: 1vw;
+                }
+                @media (max-width: 600px) {
+                    img {
+                        height: 4vw;
+                    }
+                    p {
+                        font-size: 2vw;
+                    }
+                }
+            }
+        }
+    }
+ 
+    p {
+        font-size: 10px;
+        opacity: 0.7;
+        padding: 2px;
+    }
+    
+}

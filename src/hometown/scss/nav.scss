@@ -1,0 +1,79 @@
+nav {
+    position: fixed;
+    overflow: hidden;
+    padding: 0 15px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    color: #6E6E73;
+    height: 44px;
+    background: rgba(199, 205, 218, 0.95);
+    z-index: 200;
+    #navLeft {
+      display: flex;
+      height: 44px;
+      text-align: center;
+      .logo {
+        margin-top: 14px;
+        height: 1rem;
+        width: 1rem;
+      }
+      h1{
+        font-weight: 100;
+        margin-left: 5px;
+        font-size: 1rem;
+        margin-top: 12px;
+        white-space: nowrap;
+      }
+    }
+    #navRight {
+      overflow: hidden;
+      height: 44px;
+      text-align: right;
+      display: flex;
+      .navMenu {
+        font-size: 1.8rem;
+        margin-top: 2px;
+        color: #6E6E73;
+        border-radius: 5px;
+        padding: 2px;
+      }
+      .openNavMenu {
+        background-color: aliceblue;
+      }
+
+.hamburger {
+    transform: scale(0.75);
+    cursor: pointer;
+    margin-top: -2px;
+    margin-left: 10px;
+    span {
+        display: block;
+        width: 32px;
+        height: 3px;
+        background-color: #6E6E73;
+        transition: all 300ms ease-in-out;
+        transform-origin: 6px 2px;
+        border-radius: 3px;
+        transform: scale(0.8);
+    }
+    span:not(:last-child) {
+        margin-bottom: 4px;
+    }
+  } 
+  .openHamburger {
+    span {
+        &:first-child {
+            transform: rotate(45deg);
+        }
+        &:nth-child(2) {
+            opacity: 0;
+        }
+        &:last-child {
+            transform: rotate(-45deg);
+        }
+    }
+  }   
+}
+}
+  

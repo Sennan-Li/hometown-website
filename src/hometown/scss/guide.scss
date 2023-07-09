@@ -1,0 +1,40 @@
+.guide {
+    padding-top: calc(1.5vw + 44px);
+    background-color: whitesmoke;
+    @media (max-width: 1000px) {
+        padding-top: calc(1.5vw + 47px);
+      }
+    .tips {
+        width: 98vw;
+        margin: auto;
+        border-radius: 1.5rem;
+        padding: 1.5vw;
+        margin-bottom: 1.5vw;
+        background-color: #e1e8d3;
+        overflow: hidden;
+        h1 {
+            font-size: 3rem;
+            font-weight: 500;
+            padding-bottom: 0.5rem;
+        }
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+        p {
+            
+            font-size: 1rem;
+            font-weight: 200;
+            padding-bottom: 1vw;
+        }   
+      }
+      .featured {
+        padding: 2vw;
+        background-color: black;
+        color: #e1e8d3;
+        p {
+            font-size: 2rem;
+        }
+      }
+
+}

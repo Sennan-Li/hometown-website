@@ -1,0 +1,102 @@
+.dropdown{
+    z-index: 10000;
+    color: #000;
+    position: relative;
+    position: fixed;
+    padding: 20px;
+    top: 44px;
+    background: #fff;
+    border-radius: 10px;
+    border: 0.1px solid #000;
+    box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+    h4 {
+      font-size: 0.9rem;
+      font-weight: 300px;
+      margin: 20px 0;
+    }
+  }
+  .projectDropdown {
+    right: 55px;
+    width: 300px;
+    .projectDropdownIcons {
+      display: grid;
+      grid-template-columns: 61.25px 61.25px 61.25px 61.25px;
+      gap: 5px;
+      a {
+        color: #000;
+        div {
+          text-align: center;
+          padding: 10px 5px;
+          border-radius: 10px;
+          img {
+            display: block;
+            margin: auto;
+            width: 40px;
+            height: 40px;
+          }
+          .projectDropdownIcon {
+            font-size: 2.8rem;
+          }
+          small {
+            display: block;
+            margin-top: 5px;
+            white-space: nowrap;
+            font-size: 0.7rem;
+          }
+          &:hover {
+            background: rgb(100, 100, 100, 0.3);
+          }
+        }
+      }
+
+    }
+    .web {
+      grid-template-columns: 81.66px 81.66px 81.66px;
+        .webImg {
+          width: 70px;
+          border: solid 2px #000;
+          border-radius: 5px;
+        }
+    }
+    
+  }
+  .menuDropdown {
+    padding: 0;
+    right: 15px;
+    width: 270px;
+    h4 {
+      margin: 10px 0;
+    }
+    .menuDropdownIcons {
+      a {
+        color: #000;
+        div {
+          padding: 10px 20px;
+          display: grid;
+          grid-template-columns: 20px auto;
+          gap: 10px;
+          position: relative;
+          hr {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            opacity: 0.1;
+          }
+          img {
+            display: block;
+            margin: auto;
+            width: 40px;
+            height: 40px;
+          }
+          .menuDropdownIcon {
+            font-size: 1.5rem;
+            margin-top: 6px;
+          }
+          &:hover {
+            background: rgb(100, 100, 100, 0.3);
+          }
+        }
+      }
+    }
+  }

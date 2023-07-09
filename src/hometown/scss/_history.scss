@@ -1,0 +1,48 @@
+/* History */
+.history {
+    background: whitesmoke;
+    h1 {
+      font-size: 1.8rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+    .header {
+      padding: 2vw;
+      h1 {
+        font-size: 2.3rem;
+      }
+      p {
+        margin: 2vw 0;
+      }
+    }
+  }
+  .main {
+    position: relative;
+    padding: 1vw;
+    padding-top: 0;
+    overflow: hidden;
+    img {
+      border-radius: 1rem 1rem 0 0 ;
+      width: 100%;
+      min-height: 300px;
+      object-fit: cover;
+    }
+    div {
+      padding: 2vw;
+    }
+    .charm {
+      background: url(../images/pastel-rainbow-gradient.png) top/cover;
+    }
+    .vitality {
+      background-color: #e9b7a4;
+    }
+    
+    .efficiency {
+      background-color: #e1e1e1;
+    }
+    .innovation {
+      background: url(../images/mermaid-rainbow.png) top/cover;
+      border-radius: 0 0 1rem 1rem;
+    }
+  }

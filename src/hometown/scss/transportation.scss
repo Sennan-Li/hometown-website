@@ -1,0 +1,75 @@
+.transportation {
+
+  div {
+    text-align: left;
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      padding: 2vw;
+    }
+    p {
+      padding: 2vw;
+      padding-top: 0;
+      font-weight: 300;
+      font-size: 0.9rem;
+    }
+  }
+    .hero {
+      padding-top: calc(44px);
+      background-color: #b7b7b7;
+      @media (max-width: 1000px) {
+        padding-top: 47px;
+      }
+        div {
+            h1 {
+                font-size: 2.4rem;
+                font-weight: 500;
+                color: #3453e9;
+              }
+              p{
+                text-align: justify;
+                font-weight: 400;
+              }
+          }
+          img {
+            width: 100%;
+          }       
+    }
+    .main {
+      img {
+        width: 100%;
+
+      }   
+    }
+    .flight {
+      div {
+        background-color: #fdfdfd;
+        color: #44414a;
+      }
+    }
+    .taxi {
+      div {
+        background-color: #3a74a6;
+        color: whitesmoke;
+      }
+    }
+    .bus {
+      div {
+        background-color: #00a9a2;
+      }
+    }
+    .metro {
+      div {
+        background: url(../images/creative-cubes.png) center/cover;
+        color: #ffffff;
+        text-align: center;
+        padding: 1vw 0;
+      }
+    }
+    .cruise {
+      div {
+        background-color: #759cd1;
+        color: #fefeff;
+      }
+    }
+}

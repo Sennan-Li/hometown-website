@@ -1,0 +1,138 @@
+/* Scenic */
+.gridContainer {
+    background-color: #000;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 48.5% 48.5%;
+    grid-gap: 1vw;
+    padding: 1vw 0;
+    .gridItem {
+      text-align: justify;
+      overflow: hidden;
+      display: flex;
+      border-radius: 1rem;
+        img {
+          width: 35%;
+          object-fit: cover;
+        }
+        div {
+          width: 65%;
+          padding: 1vw;
+          h1 {
+            font-size: 1.5rem;
+            font-weight: 400;
+            padding-bottom: 1vw;
+          }
+          p {
+            font-weight: 500;
+            font-size: 0.9rem;
+          }
+        }
+      }
+      @media (max-width: 1000px) {
+        display: block;
+        .gridItem {
+          border-radius: 0;
+          border-top: 1vw white solid;
+      
+          img {
+            width: 50%;
+          }
+          div {
+            width: auto;
+            padding: 2vw;
+            
+            p {
+              font-size: 1.1rem;
+              font-weight: 400;
+            }
+          }
+        }
+        .grid2 {
+          img {
+            width: 27%;
+          }
+        }
+       
+      }
+      @media (max-width: 500px) {
+         .gridItem {
+          display: block;
+          img {
+            width: 100%;
+          }
+         }
+         
+       }
+       
+      .grid1 {
+        grid-column: 1 / 2;
+        div {
+          background-color: #d3e8e2;
+          color: #589b8d;
+        }
+      }
+      .grid2 {
+        grid-column: 2 / 3;
+        div {
+          background-color: #334d73;
+          color: #ffffff;
+        }
+      }
+      .grid3 {
+        grid-column: 1 / 2;
+        div {
+          color: #22639b;
+          background-color: #e9b7a4;
+        }
+      }
+      .grid4 {
+        grid-column: 2 / 3;
+        div {
+          background-color: #2a438c;
+          color: #e4a4a8;
+        }
+      }
+      .grid5 {
+        grid-column: 1 / 2;
+        div {
+          background-color: #eb7b84;
+          color: #f9d929;
+        }
+      }
+      .grid6 {
+        grid-column: 2 / 3;
+        div {
+          background-color: #b8dbf4;
+          color: #ce372f;
+        }
+      }
+      .grid7 {
+        grid-column: 1 / 2;
+        div {
+          background-color: #e4e4da;
+        }
+      }
+      .grid8 {
+        grid-column: 2 / 3;
+        div {
+          background-color: #ffe20c;
+          color: grey;
+        }
+      }
+      .grid9 {
+        grid-column: 1 / 2;
+        div {
+          background-color: #8ebe52;
+          color: #5e5247;
+        }
+      }
+      .grid10 {
+        grid-column: 2 / 3;
+        div {
+          background-color: #b1cfeb;
+          color: rgb(5, 83, 45);
+        }
+      }
+  }
+  
